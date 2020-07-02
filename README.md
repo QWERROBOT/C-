@@ -6,6 +6,7 @@ C++大作业，因为时间问题以及知识不够，暂时完成了这么多�
 没有数据库，用文件管理数据
 
 服务端要在Linux运行（本人使用了云服务器），没有写Makefile，可以自己写一个，或者复制如下命令
+
 g++ -c server.cpp file.cpp -std=c++11
 
 g++ file.o server.o -o server -pthread
